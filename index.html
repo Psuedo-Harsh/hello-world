@@ -6,6 +6,77 @@
     <title>Document</title>
 </head>
 <body>
-    hi
+    hello world
+     <!-- cd index.html
+cd : Cannot find path 'index.html' because it does not exist.
+At line:1 char:1
++ cd index.html
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (index.html:String) [Set-Location], ItemNotFoundExcep 
+   tion
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+ 
+PS C:\Users\Nishu\OneDrive\Desktop\GitDemo\hello-world> git add index.html
+PS C:\Users\Nishu\OneDrive\Desktop\GitDemo\hello-world> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   index.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+PS C:\Users\Nishu\OneDrive\Desktop\GitDemo\hello-world> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Users\Nishu\OneDrive\Desktop\GitDemo\hello-world> add .
+add : The term 'add' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct  
+and try again.
+At line:1 char:1
++ add .
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (add:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Nishu\OneDrive\Desktop\GitDemo\hello-world> git add .
+PS C:\Users\Nishu\OneDrive\Desktop\GitDemo\hello-world> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   index.html
+
+PS C:\Users\Nishu\OneDrive\Desktop\GitDemo\hello-world> git commit -m "practiced git add ."
+[main 1c69eca] practiced git add .
+ 2 files changed, 12 insertions(+), 1 deletion(-)
+ create mode 100644 index.html
+PS C:\Users\Nishu\OneDrive\Desktop\GitDemo\hello-world> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\Nishu\OneDrive\Desktop\GitDemo\hello-world> clear -->
+<!-- ?to clone use clone git clone <repo link> -->
+  <!-- ?if you want to create a new repo use git init
+  ? if you want to add files use git add <file name> -->
+    <!-- ?wanna add all files use git add . -->
+    <!-- to check status use git status
+    to commit use git commit -m "message"
+    to push use git push origin <branch name> -->
 </body>
 </html>
